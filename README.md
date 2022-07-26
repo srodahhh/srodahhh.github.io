@@ -1,8 +1,39 @@
-# srodahhh.github.io
+# pf1
+# portfolio
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@srodahhh 
+SampurnaC
+/
+portfolio_website_fcc
+Public
+Code
+Issues
+1
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+portfolio_website_fcc/index.html
+@SampurnaC
+SampurnaC update some navbar classes
+Latest commit a43a9d9 on Jan 25
+ History
+ 1 contributor
+321 lines (296 sloc)  16.1 KB
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portfolio Website-Brad</title>
+  <title>Portfolio Website-Shallovern</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- linking css file -->
@@ -34,9 +65,6 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -49,8 +77,8 @@
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, it's me Brad</h2>
-                <p class="hero_desc">I am a professional freelancer in New York City</p>
+                <h2 class="hero_title">Hi, it's me Shallovern</h2>
+                <p class="hero_desc">I am a freelancer who is open to work.</p>
             </div>
             </div>
         </div>
@@ -66,30 +94,29 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                    <p> I have always had a keen interest in a technolgy related fields,and my dedication to work and motivation to gorw have led me to exceptional projects and experiences.Take a moment to explore my portfolio below,which includes a number of my skills.Dont hesitate to reach out if you'd like to learn more.
                         
                     </p>
                     <div class="row mt-3">
                         <div class="col-md-6">
                             <ul>
-                                <li>Name: David Parker</li>
+                                <li>Name: Shallovern Srodah</li>
                                 <li>Age: 28</li>
-                                <li>Occupation: Web Developer</li>
+                                <li>Occupation: Web Developer Freelancer</li>
 
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li>Name: David Parker</li>
+                                <li>Name: Shallovern Srodah</li>
                                 <li>Age: 28</li>
-                                <li>Occupation: Web Developer</li>
+                                <li>Occupation: Web Developer Freelancer</li>
 
                             </ul>
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        <p> I have always had a keen interest in a technolgy related fields,and my dedication to work and motivation to gorw have led me to exceptional projects and experiences.Take a moment to explore my portfolio below,which includes a number of my skills.Dont hesitate to reach out if you'd like to learn more.
                         </p>
                     </div>
                 </div>
@@ -177,93 +204,6 @@
         </div>
     </section>
 
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">YouTube Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Messaging Service</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Twitter Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
     <!-- contact section-->
     <section id="contact">
         <div class="container mt-3 contactContent">
@@ -272,9 +212,7 @@
             <div class="row mt-4">
                 <div class="col-lg-6">
                     <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                    <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="display-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=near+ICGC+Hosanna+Temple&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedmap-code" href="https://www.embed-map.com" id="make-mapinformation">https://www.embed-map.com</a><style>#display-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
                             </iframe>
                         </div>
                         <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
@@ -320,3 +258,18 @@
 </body>
 
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
